@@ -25,7 +25,7 @@ func hello(w http.ResponseWriter, _ *http.Request) {
       Message string  `json:"message"`
    }{
       Status:"Success",
-      Message:"Hello world!",
+      Message:"Hello from GO app !!!",
    }
 
    response, err := json.Marshal(payload)
